@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+
+.cabecalho-superior {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #1D0F6E; 
+    color: white;
+    font-size: 14px;
+}
+
+
+.banner .aviao {
+    width: 100%; 
+    height: auto;
+}
+
+.texto-banner {
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+
+.pacotes {
+    text-align: center;
+    margin: 60px 0; 
+}
+
+.titulo-pacotes {
+    font-size: 36px; 
+    color: #1D0F6E; 
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cartao-pacote {
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.cartao-pacote img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cartao-pacote h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.cartao-pacote p {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+
+.oportunidade {
+    text-align: center;
+    margin: 60px 0; 
+}
+
+.oportunidade h2 {
+    font-size: 40px; 
+    color: #1D0F6E; 
+}
+
+.rodape {
+    background-color: #1D0F6E; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.rodape p {
+    font-size: 28px; 
+}
