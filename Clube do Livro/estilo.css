@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #648769;
+}
+
+header {
+    background-color: #648769;
+    padding: 20px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 7em;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.livros-img {
+    width: 40%;
+    height: auto;
+}
+
+.descricao {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.descricao p {
+    font-size: 3em;
+    color: #000000;
+    
+}
+
+.destaque {
+    color: #2A5B31;
+    font-weight: bold;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+.info-item {
+    width: 80%;
+    text-align: left;
+}
+
+.info-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.info-item h3 {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.info-item p {
+    font-size: 2em;
+    color: #000000;
+}
+
+footer {
+    background-color: #6E8765;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+}
