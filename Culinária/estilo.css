@@ -1,0 +1,133 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ECA457;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 90px; /* Ajustar o tamanho da logo */
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    gap: 20px; /* Espaço entre os links do menu */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.vegetal img {
+    width: 120%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.conteudo {
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.conteudo h2 {
+    color: #ECA457;
+    font-size: 3em;
+}
+
+.conteudo p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.receitas {
+    margin: 40px 0;
+}
+
+.receitas h3 {
+    font-size: 3em;
+    color: #f4a252;
+    text-align: center;
+}
+
+.grade-receitas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.grade-receitas div {
+    text-align: center;
+}
+
+.grade-receitas div img.icone {
+    width: 60px; 
+    height: auto;
+}
+
+.grade-receitas div p {
+    color: #333;
+    font-size: 1em;
+}
+
+.blog {
+    background-color: white; 
+    padding: 20px;
+}
+
+.blog h3 {
+    color: #f4a252;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.conteudo-blog {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.blog img.imagem-chef {
+    width: 90px; 
+    height: auto;
+}
+
+.blog h4 {
+    color: #000000; /* Cor do título da receita */
+    margin: 0; /* Remover margem padrão */
+}
+
+.blog p {
+    color: #505050; /* Cor do texto da receita */
+    font-size: 1.2em;
+    margin: 0;
+}
+
+footer {
+    background-color: #f4a252; /* Rodapé laranja */
+    text-align: center;
+    padding: 20px;
+}
+
+footer .logo {
+    width: 90px; /* Tamanho da logo no rodapé */
+    height: auto;
+}
